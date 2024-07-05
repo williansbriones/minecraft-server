@@ -3,21 +3,22 @@ version: "3.7"
 services:
   mc:
     image: itzg/minecraft-server
-    tty: true
-    stdin_open: true
     ports:
       - "25565:25565"
     environment:
+      TYPE: FORGE
+      #CF_API_KEY: $$2a$$10$$3rjBrlcmwnywR7KlEAqV0.Wunt4IWADYq8RSojWeYdx97zDGw6qs6
       EULA: "TRUE"
-      MEMORY: "3G"
-      VERSION: "latest"
+      MEMORY: "4G"
+      VERSION: "1.21"
       MOTD: "¡Bienvenido a mi servidor de Minecraft ratas cloud!"
       DIFFICULTY: "normal"
-      ICON: "https://cdn.discordapp.com/attachments/849047576636162098/1253950263803510856/ICONO.webp?ex=6677b7b0&is=66766630&hm=53ae8c94796e45c42786d410710e268953f28ce1c53910bb14add30ece9790dd&"
-      OVERRIDE_ICON: TRUE
+      ICON: "/data/ICONO.webp"
+      OVERRIDE_ICON: "TRUE"
       MAX_WORLD_SIZE: 5000
       MODE: "survival"
-      ONLINE_MODE: FALSE
-
+      ONLINE_MODE: "FALSE"
     volumes:
       - ./data:/data
+      - ./downloads/mods:/data/mods
+
