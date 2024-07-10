@@ -10,8 +10,8 @@ services:
       #CF_API_KEY: $$2a$$10$$3rjBrlcmwnywR7KlEAqV0.Wunt4IWADYq8RSojWeYdx97zDGw6qs6
       EULA: "TRUE"
       MEMORY: "3G"
-      VERSION: "1.20.4"
-      MOTD: "¡Bienvenido a mi servidor de Minecraft ratas cloud!"
+      VERSION: "1.20.1"
+      MOTD: "¡Bienvenido a nuestro servidor de Minecraft ratas cloud!"
       DIFFICULTY: "normal"
       ICON: "https://i.imgur.com/RUY3b6G.jpeg"
       OVERRIDE_ICON: "TRUE"
