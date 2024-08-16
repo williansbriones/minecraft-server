@@ -6,19 +6,18 @@ services:
     ports:
       - "25565:25565"
     environment:
-      TYPE: FORGE
       #CF_API_KEY: $$2a$$10$$3rjBrlcmwnywR7KlEAqV0.Wunt4IWADYq8RSojWeYdx97zDGw6qs6
       EULA: "TRUE"
-      MEMORY: "11G"
-      VERSION: "1.20.1"
-      MOTD: "¡Bienvenido a nuestro servidor de Minecraft ratas cloud!"
+      MEMORY: "7G"
+      VERSION: "1.21.1"
+      MOTD: "Muerte al WARDENNNNNNN!!!"
       DIFFICULTY: "normal"
-      ICON: "https://i.imgur.com/RUY3b6G.jpeg"
+      ICON: "https://i.imgur.com/Z5MBi7z.jpeg"
       OVERRIDE_ICON: "TRUE"
       MAX_WORLD_SIZE: 5000
       MODE: "survival"
-      ONLINE_MODE: "FALSE"
+      ONLINE_MODE: "TRUE"
     volumes:
       - ./data:/data
-      - ./downloads/mods:/data/mods
+      #- ./downloads/mods:/data/mods
 
