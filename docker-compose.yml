@@ -8,16 +8,17 @@ services:
     environment:
       #CF_API_KEY: $$2a$$10$$3rjBrlcmwnywR7KlEAqV0.Wunt4IWADYq8RSojWeYdx97zDGw6qs6
       EULA: "TRUE"
-      MEMORY: "7G"
+      MEMORY: "11G"
+      TYPE: "FORGE"
       VERSION: "1.21.1"
       MOTD: "Muerte al WARDENNNNNNN!!!"
       DIFFICULTY: "normal"
       ICON: "https://i.imgur.com/Z5MBi7z.jpeg"
       OVERRIDE_ICON: "TRUE"
-      MAX_WORLD_SIZE: 5000
+      MAX_WORLD_SIZE: 50000
       MODE: "survival"
       ONLINE_MODE: "TRUE"
     volumes:
       - ./data:/data
-      #- ./downloads/mods:/data/mods
+      - ./downloads/mods:/data/mods
 
