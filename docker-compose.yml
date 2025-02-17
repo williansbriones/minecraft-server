@@ -16,7 +16,7 @@ services:
       DIFFICULTY: "normal"
       ICON: "https://i.imgur.com/Z5MBi7z.jpeg"
       OVERRIDE_ICON: "TRUE"
-      MAX_WORLD_SIZE: 50000
+      MAX_WORLD_SIZE: 29999984
       MODE: "survival"
       ONLINE_MODE: "TRUE"
     volumes:
