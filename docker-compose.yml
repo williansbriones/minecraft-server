@@ -8,7 +8,7 @@ services:
       - "25565:25565"
     environment:
       #CF_API_KEY: $$2a$$10$$3rjBrlcmwnywR7KlEAqV0.Wunt4IWADYq8RSojWeYdx97zDGw6qs6
-      EULA: "TRUE"
+      EULA: TRUE
       MEMORY: "15G"
       TYPE: "FORGE"
       VERSION: "1.20.1"
@@ -18,7 +18,7 @@ services:
       OVERRIDE_ICON: "TRUE"
       MAX_WORLD_SIZE: 29999984
       MODE: "survival"
-      ONLINE_MODE: "FALSE"
+      ONLINE_MODE: FALSE
     volumes:
       - ./data:/data
       - ./downloads/mods:/data/mods
