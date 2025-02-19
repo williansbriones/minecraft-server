@@ -18,7 +18,7 @@ services:
       OVERRIDE_ICON: "TRUE"
       MAX_WORLD_SIZE: 29999984
       MODE: "survival"
-      ONLINE_MODE: FALSE
+      ONLINE_MODE: "FALSE"
     volumes:
       - ./data:/data
       - ./downloads/mods:/data/mods
