@@ -15,7 +15,7 @@ services:
       VERSION: "1.20.1"
       MOTD: "Muerte al WARDENNNNNNN!!!"
       DIFFICULTY: "normal"
-      ICON: "https://i.imgur.com/Z5MBi7z.jpeg"
+      ICON: "https://wallpaperaccess.com/full/171170.jpg"
       OVERRIDE_ICON: "TRUE"
       MAX_WORLD_SIZE: 29999984
       MODE: "survival"
