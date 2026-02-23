@@ -12,8 +12,6 @@ services:
       EULA: "TRUE"
       MEMORY: "13G"
       TYPE: "Fabric"
-      FABRIC_LAUNCHER_VERSION: 0.18.4
-      FABRIC_LOADER_VERSION: 1.1.1
       VERSION: "1.21.11"
       MOTD: "Muerte al WARDENNNNNNN!!!"
       DIFFICULTY: "normal"
