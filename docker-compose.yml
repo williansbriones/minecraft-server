@@ -11,7 +11,9 @@ services:
       #CF_API_KEY: $$2a$$10$$3rjBrlcmwnywR7KlEAqV0.Wunt4IWADYq8RSojWeYdx97zDGw6qs6
       EULA: "TRUE"
       MEMORY: "13G"
-      #TYPE: "FORGE"
+      TYPE: "Fabric"
+      FABRIC_LAUNCHER_VERSION: 0.18.4
+      FABRIC_LOADER_VERSION: 1.1.1
       VERSION: "1.21.11"
       MOTD: "Muerte al WARDENNNNNNN!!!"
       DIFFICULTY: "normal"
